@@ -1,0 +1,10 @@
+mat-card {
+  color: aliceblue;
+  vertical-align: center;
+  font-size: 16px;
+}
+
+button {
+  float: right;
+  display: inline;
+}

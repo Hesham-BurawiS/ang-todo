@@ -1,0 +1,30 @@
+mat-card {
+  color: aliceblue;
+  vertical-align: center;
+  font-size: 16px;
+}
+
+div,ul{
+  margin: 5px;
+}
+button {
+  float: right;
+  display: inline;
+}
+
+input {
+  width: 95%;
+  display: inline-block;
+}
+.full-width {
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+

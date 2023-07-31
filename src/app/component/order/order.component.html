@@ -1,0 +1,10 @@
+<mat-card >
+  <mat-card-content>
+    <!--    <input type="checkbox" [checked]="todo.done" (change)="updateTodoStatus(todo.id, $event)">-->
+    <span>{{todo?.title}}</span>
+    <!--        <button (click)="deleteTodo(todo.id)">Delete</button>-->
+    <button mat-mini-fab color="warn" aria-label="Delete" (click)="this.todoService.deleteTodo(todo?.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-card-content>
+</mat-card>

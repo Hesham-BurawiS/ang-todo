@@ -1,0 +1,16 @@
+
+<div>
+  <mat-form-field class="full-width">
+    <input matInput [(ngModel)]="newTodoTitle" placeholder="What needs to be done?">
+    <button mat-flat-button color="primary" (click)="addTodo()">Add</button>
+  </mat-form-field>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let todo of todoService.getTodos()" style="margin-top: 10px">
+      <app-order [todo] ='todo'>
+      </app-order>
+    </li>
+  </ul>
+</div>
